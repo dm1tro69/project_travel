@@ -8,7 +8,7 @@ interface ListProps {
 }
 
 const List: FC<ListProps> = ({places}) => {
-    console.log(places)
+
     const classes = useStyles()
     const [type, setType] = useState<string | unknown>('restorants')
     const [rating, setRating] = useState<string | unknown>(0)
@@ -19,7 +19,7 @@ const List: FC<ListProps> = ({places}) => {
             <Typography variant={'h4'}>
                 Restaurants, Hotels & Attractions around you
             </Typography>
-            <FormControl style={{marginRight: '25px'}} className={classes.formControl}>
+            <FormControl style={{marginRight: '25px', marginBottom: '25px'}} className={classes.formControl}>
                 <InputLabel>Type</InputLabel>
                 <Select value={type} onChange={(e)=> {setType(e.target.value)}}>
                      <MenuItem value={'restorants'}>Restorants</MenuItem>

@@ -10,14 +10,14 @@ import Map from "./components/Map/Map";
 const App: FC = () => {
 
     const [places, setPlaces] = useState([])
-    const [coordinates, setCoordinates] = useState({lat: 0, lng: 0})
+    const [coordinates, setCoordinates] = useState({lat: 37.97637, lng: 23.723433})
     const [bounds, setBounds] = useState({})
 
-    useEffect(()=> {
-         navigator.geolocation.getCurrentPosition(({coords: {latitude, longitude}})=> {
-           setCoordinates({lat: latitude, lng: longitude})
-         })
-    }, [])
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(({ coords: { latitude, longitude } }) => {
+            setCoordinates({ lat: latitude, lng: longitude });
+        });
+    }, []);
 
     useEffect(()=> {
         console.log(coordinates, bounds)
@@ -28,9 +28,6 @@ const App: FC = () => {
                 setPlaces(data)
             })
     }, [coordinates, bounds])
-
-
-
 
 
     return (

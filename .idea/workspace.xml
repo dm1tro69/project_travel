@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1609b2be-22aa-45ca-82b4-974ee0f1b7df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/List/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Map/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/Map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Map/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PlaceDetails/PlaceDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceDetails/PlaceDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlaceDetails/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceDetails/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,8 @@
       <workItem from="1647631925803" duration="4514000" />
       <workItem from="1647673618430" duration="87000" />
       <workItem from="1647673718377" duration="7841000" />
-      <workItem from="1647686239452" duration="19891000" />
+      <workItem from="1647686239452" duration="20970000" />
+      <workItem from="1647764287416" duration="5297000" />
     </task>
     <servers />
   </component>

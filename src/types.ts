@@ -18,4 +18,13 @@ export type LatLngType = {
 
 export type PlaceDetailsType = {
     name: string
+    photo: any
+    price_level: string
+    ranking: string
+    awards?: any[]
+    cuisine: any[]
+    address: string
+    phone: string
+    web_url: string
+    website: string
 }
